@@ -52,7 +52,6 @@
             color: var(--secondary-color);
         }
         .image-container {
-            text-align: center;
             margin: 20px 0;
         }
         .image-container img {
@@ -60,6 +59,9 @@
             height: auto;
             border-radius: 5px;
             box-shadow: 0 0 10px rgba(254, 186, 5, 0.5);
+            display: block; /* 인라인 요소를 블록 요소로 변경 */
+            margin-left: 0; /* 왼쪽 마진 제거 */
+            margin-right: auto; /* 오른쪽 마진 자동 (필요시 제거 가능) */
         }
         .important-info {
             background-color: rgba(254, 186, 5, 0.1);
